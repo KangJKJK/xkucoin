@@ -62,6 +62,7 @@ case $choice in
         done
     } > "$WORK/data.txt"
 
+    cp data.txt user.txt
     # 사용자에게 프록시 사용 여부를 물어봅니다.
     read -p "프록시를 사용하시겠습니까? (y/n): " use_proxy
     
